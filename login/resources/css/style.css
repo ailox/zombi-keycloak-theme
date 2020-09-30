@@ -1,0 +1,112 @@
+.mt-1, .my-1 {
+    margin-top: .1875rem !important;
+}
+
+.mt-2, .my-2 {
+    margin-top: .375rem !important;
+}
+
+.mt-3, .my-3 {
+    margin-top: .75rem !important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mt-5, .my-5 {
+    margin-top: 2.25rem !important;
+}
+
+.mb-1, .my-1 {
+    margin-bottom: .1875rem !important;
+}
+
+.mb-2, .my-2 {
+    margin-top: .375rem !important;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: .75rem !important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 2.25rem !important;
+}
+
+.auth-background {
+    background: linear-gradient(#30cfd0e0, #330867e0), url(../images/louis-reed-wSTCaQpiLtc-unsplash.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.seperate-header {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) calc(50% - 1px), rgba(192, 192, 192, 1) calc(50%), rgba(0, 0, 0, 0) calc(50% + 1px));
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+.seperate-header p {
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    line-height: 1.2em;
+}
+
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+
+.app .is-fullheight {
+    min-height: 100vh;
+}
+
+.app {
+    background-color: rgb(242, 243, 248);
+}
+
+.hero.is-dark .tabs.is-boxed li.is-active a {
+    background-color: rgb(242, 243, 248);
+}
+
+.hero.is-dark .tabs.is-boxed li.is-active a:hover {
+    background-color: rgb(242, 243, 248);
+}
+
+.aside {
+    width: 12.5rem;
+    background-color: rgb(30, 30, 45);
+}
+
+.aside .menu-logo, .aside .menu-label {
+    padding: 1em;
+    margin-bottom: 0;
+}
+
+.aside .menu-list a {
+    color: #9899ac;
+    padding-left: 1em;
+}
+
+.aside .menu-list a:hover {
+    color: #ffffff;
+    background-color: rgba(213, 204, 253, 0.123);
+}
+
+.aside .menu-list a.is-active, .aside .menu-list a.is-active:hover  {
+    color: #ffffff;
+    background-color: rgb(25, 25, 39);
+}
